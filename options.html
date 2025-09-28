@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Summary - Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>YouTube Summary Settings</h1>
+            <p>Configure your OpenAI API key and customize the summary prompt</p>
+        </header>
+
+        <main>
+            <section class="settings-section">
+                <h2>OpenAI Configuration</h2>
+                <div class="form-group">
+                    <label for="apiKey">OpenAI API Key</label>
+                    <input type="password" id="apiKey" placeholder="sk-..." required>
+                    <small>Your API key is stored locally and never shared. Get one at <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI Platform</a></small>
+                </div>
+            </section>
+
+            <section class="settings-section">
+                <h2>Summary Prompt</h2>
+                <div class="form-group">
+                    <label for="customPrompt">Custom Prompt (Optional)</label>
+                    <textarea id="customPrompt" rows="8" placeholder="Enter your custom prompt for the AI summary..."></textarea>
+                    <small>Leave empty to use the default prompt. The prompt will be combined with the video title, channel, and transcript.</small>
+                </div>
+            </section>
+
+            <section class="settings-section">
+                <h2>Usage Instructions</h2>
+                <div class="instructions">
+                    <ol>
+                        <li>Set your OpenAI API key above</li>
+                        <li>Optionally customize the summary prompt</li>
+                        <li>Navigate to any YouTube video</li>
+                        <li>Click the extension icon or use the keyboard shortcut</li>
+                        <li>Wait for the AI to generate your summary</li>
+                    </ol>
+                    <p><strong>Note:</strong> The extension works best with videos that have captions/transcripts available.</p>
+                </div>
+            </section>
+
+            <div class="actions">
+                <button id="save" class="btn btn-primary">Save Settings</button>
+                <button id="reset" class="btn btn-secondary">Reset to Defaults</button>
+            </div>
+
+            <div id="status" class="status hidden"></div>
+        </main>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>

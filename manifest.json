@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summary",
+  "version": "1.0",
+  "description": "Generate AI summaries of YouTube videos based on their transcripts",
+
+  "permissions": ["activeTab", "storage", "scripting"],
+
+  "host_permissions": ["https://www.youtube.com/*"],
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "action": {
+    "default_title": "Summarize YouTube Video"
+  },
+
+  "options_page": "options.html",
+
+  "commands": {
+    "trigger-summary": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Generate YouTube video summary"
+    }
+  }
+}
