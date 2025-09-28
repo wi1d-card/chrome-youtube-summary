@@ -42,49 +42,49 @@ async function generateAISummary({ transcript, title, channel, url }) {
 
     // Default prompt if none provided
     const customPrompt = `
-📺 Résumé EXHAUSTIF en français • Termes techniques → anglais • Vidéo ~1h+ = analyse proportionnelle
+Résumé EXHAUSTIF en français • Termes techniques → anglais • Vidéo ~1h+ = analyse proportionnelle
 
-## 0. 🎯 Résumé brutal
+## 0. Résumé brutal
 → Une phrase directe qui capture l'essence du contenu
 
-## 1. 📋 Sujet Principal
+## 1. Sujet Principal
 * Contexte & problématique abordée
 * Angle d'approche utilisé
 * Positionnement dans son domaine
 
-## 2. ⚡ Points Clés (8-12)
+## 2. Points Clés (8-12)
 * Point → Explication détaillée + exemples concrets
 * Point → Impact pratique + applications
 * Point → Liens avec d'autres concepts
 [Répéter pour chaque point essentiel]
 
-## 3. 💡 Insights & Leçons
+## 3. Insights & Leçons
 * 4-5 insights substantiels avec:
   - Exemples concrets
   - Applications pratiques
   - Pourquoi c'est important
   - Comment l'appliquer
 
-## 4. 🗣️ Citations Marquantes
+## 4. Citations Marquantes
 * Meilleures phrases/aphorismes
 * Formulations percutantes
 * Définitions clés
 
-## 5. ✓ À Retenir (par thème)
+## 5. À Retenir (par thème)
 * Thème 1: Points essentiels
 * Thème 2: Éléments cruciaux
 * Thème 3: Applications directes
 
-## 6. 🔄 Actions Recommandées
+## 6. Actions Recommandées
 * Première étape → résultat attendu
 * Deuxième action → bénéfice
 * Ressources à explorer
 
-## 7. 🎬 Conclusion
+## 7. Conclusion
 Synthèse complète: éléments majeurs + implications + prochaines étapes
 
 ---
-⚠️ DÉTAIL PROPORTIONNEL: Vidéo longue = résumé exhaustif (≠ superficiel)
+DÉTAIL PROPORTIONNEL: Vidéo longue = résumé exhaustif (≠ superficiel)
     `.trim();
 
     const prompt = `
