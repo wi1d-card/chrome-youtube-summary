@@ -82,10 +82,9 @@ Format pour chaque point:
 
 ## 3. Insights & Leçons - AVEC SOURCES
 Format pour chaque insight:
-* Insight principal → Base factuelle (citations directes)
-  - Position auteur: Perspective/opinion exprimée
-  - Applications: Conséquences pratiques déduites
-  - Confiance: ÉLEVÉ/MOYEN/FAIBLE
+* Insight principal avec base factuelle (citations directes)
+  - Opinion: Perspective/position exprimée par l'auteur
+  - Application: Conséquences pratiques et implications
 
 ## 4. Citations Marquantes
 * Citations FACTUELLES: [Affirmations vérifiables]
