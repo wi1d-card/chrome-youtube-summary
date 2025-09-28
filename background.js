@@ -48,47 +48,73 @@ STYLE REQUIS:
 * Nettoyer les formulations peu importantes pour polir le style et le rendre plus incisif
 * Utiliser des symboles pour raccourcir les idées (*, →, ≠, ~, +, etc.)
 
+DÉTECTION AUTO DU TYPE:
+* TALK/CONFÉRENCE → focus sur thèse centrale + arguments + implications pratiques
+* REVIEW/ANALYSE → focus sur méthodologie + évaluation + comparaisons + recommandations
+
 ## 0. Résumé brutal
 → Une phrase directe qui capture l'essence du contenu
 
 ## 1. Sujet Principal
+[TALK] * Thèse/message central défendu + pourquoi maintenant
+[REVIEW] * Sujet analysé + méthodologie/angle d'évaluation utilisé
 * Contexte & problématique abordée
-* Angle d'approche utilisé
 * Positionnement dans son domaine
 
-## 2. Points Clés (8-12)
-* Point → Explication détaillée + exemples concrets
-* Point → Impact pratique + applications
-* Point → Liens avec d'autres concepts
-[Répéter pour chaque point essentiel]
+## 1.5. Hiérarchie d'Importance
+🔥 CRITIQUE (20% → 80% valeur):
+* Les 2-3 insights qui changent vraiment la donne
+* Points que l'auteur répète/emphasise le plus
 
-## 3. Insights & Leçons
+⚡ IMPORTANT (30% du contenu):
+* Arguments solides qui supportent le message principal
+* Exemples concrets avec impact mesurable
+
+📋 SECONDAIRE (50% restant):
+* Contexte utile mais pas essentiel
+* Détails techniques ou anecdotes illustratives
+
+## 2. Points Clés (8-12) - AVEC DISTINCTION
+Pour chaque point, préciser:
+* 📊 FAIT: [Données/citations directes de la transcription]
+* 💭 OPINION: [Positions/jugements exprimés par l'auteur]
+* 🧠 INTERPRÉTATION: [Analyses ajoutées par l'IA, pas dans l'original]
+
+Format: Point → 📊 Fait + 💭 Opinion + 🧠 Implication
+
+## 3. Insights & Leçons - AVEC SOURCES
 * 4-5 insights substantiels avec:
-  - Exemples concrets
-  - Applications pratiques
-  - Pourquoi c'est important
-  - Comment l'appliquer
+  - 📊 Base factuelle (citations directes)
+  - 💭 Position de l'auteur
+  - 🧠 Applications pratiques déduites
+  - Niveau de confiance: ★★★ (certain) → ★ (inféré)
 
 ## 4. Citations Marquantes
-* Meilleures phrases/aphorismes
-* Formulations percutantes
-* Définitions clés
+* 📊 Citations FACTUELLES: [Affirmations vérifiables]
+* 💭 Citations OPINIONNELLES: [Jugements/positions personnelles]
+* ⚠️ Affirmations à vérifier: [Claims qui demandent validation externe]
 
-## 5. À Retenir (par thème)
-* Thème 1: Points essentiels
-* Thème 2: Éléments cruciaux
-* Thème 3: Applications directes
+## 5. À Retenir (par thème + type)
+* 📊 FAITS établis: Points vérifiables
+* 💭 POSITIONS défendues: Arguments de l'auteur
+* 🧠 IMPLICATIONS: Conséquences logiques
 
 ## 6. Actions Recommandées
-* Première étape → résultat attendu
-* Deuxième action → bénéfice
-* Ressources à explorer
+* 🔥 IMMÉDIAT (impact élevé, effort faible): Action → résultat dans X jours
+* ⚡ COURT TERME (préparation requise): Action → prérequis → ROI
+* 📈 LONG TERME (investissement important): Vision → étapes → indicateurs
 
-## 7. Conclusion
-Synthèse complète: éléments majeurs + implications + prochaines étapes
+## 7. Conclusion + Validation
+* Synthèse: éléments majeurs + implications + prochaines étapes
+* ⚠️ Points manquant de support dans la transcription originale
+* 🎯 Niveau de confiance global: ★★★ → ★
 
 ---
-DÉTAIL PROPORTIONNEL: Vidéo longue = résumé exhaustif (≠ superficiel)
+VALIDATION FINALE:
+* Marquer clairement transcription vs interprétation IA
+* Signaler affirmations non-supportées
+* Séparer FAITS vs OPINIONS vs INTERPRÉTATIONS
+* Indiquer niveau de confiance pour chaque insight majeur
     `.trim();
 
     const prompt = `
