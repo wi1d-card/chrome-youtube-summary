@@ -106,7 +106,7 @@ Format: Point → Fait + Opinion + Implication
 
 ## 6.5. Mindmap ASCII - Concepts Principaux/Secondaires
 Structure hiérarchique en ASCII des concepts clés:
-```
+
 SUJET PRINCIPAL
 ├── Concept Principal 1
 │   ├── Sous-concept A
@@ -117,7 +117,7 @@ SUJET PRINCIPAL
 └── Concept Principal 3
     ├── Implication majeure
     └── Lien avec autres domaines
-```
+
 Organiser par ordre d'importance décroissante
 
 ## 7. Conclusion + Validation
