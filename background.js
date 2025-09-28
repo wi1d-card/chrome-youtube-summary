@@ -44,6 +44,10 @@ async function generateAISummary({ transcript, title, channel, url }) {
     const customPrompt = `
 Résumé EXHAUSTIF en français • Termes techniques → anglais • Vidéo ~1h+ = analyse proportionnelle
 
+STYLE REQUIS:
+* Nettoyer les formulations peu importantes pour polir le style et le rendre plus incisif
+* Utiliser des symboles pour raccourcir les idées (*, →, ≠, ~, +, etc.)
+
 ## 0. Résumé brutal
 → Une phrase directe qui capture l'essence du contenu
 
