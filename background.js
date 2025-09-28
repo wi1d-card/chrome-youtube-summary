@@ -105,7 +105,7 @@ Format: Point → Fait + Opinion + Implication
 * LONG TERME (investissement important): Vision → étapes → indicateurs
 
 ## 6.5. Mindmap ASCII - Concepts Principaux/Secondaires
-Structure hiérarchique en ASCII des concepts clés:
+Structure hiérarchique en ASCII des concepts clés dans un block code:
 
 SUJET PRINCIPAL
 ├── Concept Principal 1
@@ -124,13 +124,6 @@ Organiser par ordre d'importance décroissante
 * Synthèse: éléments majeurs + implications + prochaines étapes
 * Points manquant de support dans la transcription originale
 * Niveau de confiance global: ÉLEVÉ → FAIBLE
-
----
-VALIDATION FINALE:
-* Marquer clairement transcription vs interprétation IA
-* Signaler affirmations non-supportées
-* Séparer FAITS vs OPINIONS vs INTERPRÉTATIONS
-* Indiquer niveau de confiance pour chaque insight majeur
     `.trim();
 
     const prompt = `
