@@ -42,39 +42,49 @@ async function generateAISummary({ transcript, title, channel, url }) {
 
     // Default prompt if none provided
     const customPrompt = `
-Veuillez fournir un résumé TRÈS DÉTAILLÉ de cette transcription de vidéo YouTube en français.
-Gardez les termes techniques en anglais s'ils sont habituellement utilisés en anglais.
-Cette vidéo semble longue, donc soyez exhaustif et détaillé dans votre analyse.
+📺 Résumé EXHAUSTIF en français • Termes techniques → anglais • Vidéo ~1h+ = analyse proportionnelle
 
-## 0. Résumé brutal en une ligne
-Une phrase qui résume honnêtement et directement le contenu principal.
+## 0. 🎯 Résumé brutal
+→ Une phrase directe qui capture l'essence du contenu
 
-## 1. Sujet Principal
-Décrivez en détail de quoi traite la vidéo, le contexte, et l'angle d'approche utilisé (2-3 paragraphes).
+## 1. 📋 Sujet Principal
+* Contexte & problématique abordée
+* Angle d'approche utilisé
+* Positionnement dans son domaine
 
-## 2. Points Clés Détaillés
-Listez 8-12 points importants avec des explications détaillées pour chacun:
-- Point 1: [Explication détaillée]
-- Point 2: [Explication détaillée]
-- etc.
+## 2. ⚡ Points Clés (8-12)
+* Point → Explication détaillée + exemples concrets
+* Point → Impact pratique + applications
+* Point → Liens avec d'autres concepts
+[Répéter pour chaque point essentiel]
 
-## 3. Insights et Leçons Approfondis
-Développez en détail les insights les plus précieux, avec des exemples concrets et des applications pratiques (au moins 4-5 insights substantiels).
+## 3. 💡 Insights & Leçons
+* 4-5 insights substantiels avec:
+  - Exemples concrets
+  - Applications pratiques
+  - Pourquoi c'est important
+  - Comment l'appliquer
 
-## 4. Citations et Aphorismes Marquants
-Listez les meilleures citations, aphorismes ou phrases marquantes mentionnées.
+## 4. 🗣️ Citations Marquantes
+* Meilleures phrases/aphorismes
+* Formulations percutantes
+* Définitions clés
 
-## 5. Points à Retenir Essentiels
-Liste exhaustive des éléments les plus importants à retenir, organisés par thème.
+## 5. ✓ À Retenir (par thème)
+* Thème 1: Points essentiels
+* Thème 2: Éléments cruciaux
+* Thème 3: Applications directes
 
-## 6. Mindmap Interactive
-...
+## 6. 🔄 Actions Recommandées
+* Première étape → résultat attendu
+* Deuxième action → bénéfice
+* Ressources à explorer
 
-## 7. Conclusion Exhaustive
-Synthèse complète reprenant tous les éléments majeurs, les implications, et les actions recommandées.
+## 7. 🎬 Conclusion
+Synthèse complète: éléments majeurs + implications + prochaines étapes
 
 ---
-IMPORTANT: Soyez très détaillé, cette vidéo fait probablement plus d'une heure. Le résumé doit être proportionnel à la durée et richesse du contenu.
+⚠️ DÉTAIL PROPORTIONNEL: Vidéo longue = résumé exhaustif (≠ superficiel)
     `.trim();
 
     const prompt = `
