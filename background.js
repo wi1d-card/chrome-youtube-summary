@@ -62,52 +62,52 @@ DÉTECTION AUTO DU TYPE:
 * Positionnement dans son domaine
 
 ## 1.5. Hiérarchie d'Importance
-🔥 CRITIQUE (20% → 80% valeur):
+CRITIQUE (20% → 80% valeur):
 * Les 2-3 insights qui changent vraiment la donne
 * Points que l'auteur répète/emphasise le plus
 
-⚡ IMPORTANT (30% du contenu):
+IMPORTANT (30% du contenu):
 * Arguments solides qui supportent le message principal
 * Exemples concrets avec impact mesurable
 
-📋 SECONDAIRE (50% restant):
+SECONDAIRE (50% restant):
 * Contexte utile mais pas essentiel
 * Détails techniques ou anecdotes illustratives
 
 ## 2. Points Clés (8-12) - AVEC DISTINCTION
 Pour chaque point, préciser:
-* 📊 FAIT: [Données/citations directes de la transcription]
-* 💭 OPINION: [Positions/jugements exprimés par l'auteur]
-* 🧠 INTERPRÉTATION: [Analyses ajoutées par l'IA, pas dans l'original]
+* FAIT: [Données/citations directes de la transcription]
+* OPINION: [Positions/jugements exprimés par l'auteur]
+* INTERPRÉTATION: [Analyses ajoutées par l'IA, pas dans l'original]
 
-Format: Point → 📊 Fait + 💭 Opinion + 🧠 Implication
+Format: Point → Fait + Opinion + Implication
 
 ## 3. Insights & Leçons - AVEC SOURCES
 * 4-5 insights substantiels avec:
-  - 📊 Base factuelle (citations directes)
-  - 💭 Position de l'auteur
-  - 🧠 Applications pratiques déduites
-  - Niveau de confiance: ★★★ (certain) → ★ (inféré)
+  - Base factuelle (citations directes)
+  - Position de l'auteur
+  - Applications pratiques déduites
+  - Niveau de confiance: ÉLEVÉ (certain) → FAIBLE (inféré)
 
 ## 4. Citations Marquantes
-* 📊 Citations FACTUELLES: [Affirmations vérifiables]
-* 💭 Citations OPINIONNELLES: [Jugements/positions personnelles]
-* ⚠️ Affirmations à vérifier: [Claims qui demandent validation externe]
+* Citations FACTUELLES: [Affirmations vérifiables]
+* Citations OPINIONNELLES: [Jugements/positions personnelles]
+* Affirmations à vérifier: [Claims qui demandent validation externe]
 
 ## 5. À Retenir (par thème + type)
-* 📊 FAITS établis: Points vérifiables
-* 💭 POSITIONS défendues: Arguments de l'auteur
-* 🧠 IMPLICATIONS: Conséquences logiques
+* FAITS établis: Points vérifiables
+* POSITIONS défendues: Arguments de l'auteur
+* IMPLICATIONS: Conséquences logiques
 
 ## 6. Actions Recommandées
-* 🔥 IMMÉDIAT (impact élevé, effort faible): Action → résultat dans X jours
-* ⚡ COURT TERME (préparation requise): Action → prérequis → ROI
-* 📈 LONG TERME (investissement important): Vision → étapes → indicateurs
+* IMMÉDIAT (impact élevé, effort faible): Action → résultat dans X jours
+* COURT TERME (préparation requise): Action → prérequis → ROI
+* LONG TERME (investissement important): Vision → étapes → indicateurs
 
 ## 7. Conclusion + Validation
 * Synthèse: éléments majeurs + implications + prochaines étapes
-* ⚠️ Points manquant de support dans la transcription originale
-* 🎯 Niveau de confiance global: ★★★ → ★
+* Points manquant de support dans la transcription originale
+* Niveau de confiance global: ÉLEVÉ → FAIBLE
 
 ---
 VALIDATION FINALE:
