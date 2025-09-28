@@ -123,8 +123,8 @@
 .markdown-preview h2,
 .markdown-preview h3 {
   color: #1f2937;
-  margin-bottom: 8px;
-  margin-top: 12px;
+  margin-bottom: 6px;
+  margin-top: 8px;
 }
 
 .markdown-preview h1:first-child,
@@ -134,17 +134,17 @@
 }
 
 .markdown-preview p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .markdown-preview ul,
 .markdown-preview ol {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   padding-left: 20px;
 }
 
 .markdown-preview li {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .markdown-preview strong {
