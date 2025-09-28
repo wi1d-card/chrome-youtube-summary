@@ -93,6 +93,15 @@ Format pour chaque insight:
 * Citations OPINIONNELLES: [Jugements/positions personnelles]
 * Affirmations à vérifier: [Claims qui demandent validation externe]
 
+## 4.5. Statistiques & Données Clés
+Extraire tous les nombres précis et stats importantes mentionnés:
+* Pourcentages: [Ex: "75% des entreprises utilisent..."]
+* Montants/Budget: [Ex: "$2.5M de financement levé"]
+* Volumes/Quantités: [Ex: "10 millions d'utilisateurs"]
+* Dates/Années: [Ex: "Depuis 2019, croissance de..."]
+* Comparaisons chiffrées: [Ex: "3x plus rapide que..."]
+* Métriques business: [Ex: "ROI de 150%", "Conversion +25%"]
+
 ## 5. À Retenir (par thème + type)
 * FAITS établis: Points vérifiables
 * POSITIONS défendues: Arguments de l'auteur
