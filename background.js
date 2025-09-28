@@ -78,12 +78,14 @@ SECONDAIRE (50% restant):
 Format pour chaque point:
 * Point principal → Fait établi basé sur la transcription
   - Opinion: Position/jugement exprimé par l'auteur
+  - Preuve: Recherche/stats/données citées par le speaker
   - Implication: Analyse/conséquence déduite
 
 ## 3. Insights & Leçons - AVEC SOURCES
 Format pour chaque insight:
 * Insight principal avec base factuelle (citations directes)
   - Opinion: Perspective/position exprimée par l'auteur
+  - Preuve: Étude/recherche/statistique mentionnée pour appuyer
   - Application: Conséquences pratiques et implications
 
 ## 4. Citations Marquantes
