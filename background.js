@@ -104,6 +104,22 @@ Format: Point → Fait + Opinion + Implication
 * COURT TERME (préparation requise): Action → prérequis → ROI
 * LONG TERME (investissement important): Vision → étapes → indicateurs
 
+## 6.5. Mindmap ASCII - Concepts Principaux/Secondaires
+Structure hiérarchique en ASCII des concepts clés:
+```
+SUJET PRINCIPAL
+├── Concept Principal 1
+│   ├── Sous-concept A
+│   └── Sous-concept B
+├── Concept Principal 2
+│   ├── Détail important
+│   └── Application pratique
+└── Concept Principal 3
+    ├── Implication majeure
+    └── Lien avec autres domaines
+```
+Organiser par ordre d'importance décroissante
+
 ## 7. Conclusion + Validation
 * Synthèse: éléments majeurs + implications + prochaines étapes
 * Points manquant de support dans la transcription originale
