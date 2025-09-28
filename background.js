@@ -75,19 +75,17 @@ SECONDAIRE (50% restant):
 * Détails techniques ou anecdotes illustratives
 
 ## 2. Points Clés (8-12) - AVEC DISTINCTION
-Pour chaque point, préciser:
-* FAIT: [Données/citations directes de la transcription]
-* OPINION: [Positions/jugements exprimés par l'auteur]
-* INTERPRÉTATION: [Analyses ajoutées par l'IA, pas dans l'original]
-
-Format: Point → Fait + Opinion + Implication
+Format pour chaque point:
+* Point principal → Fait établi basé sur la transcription
+  - Opinion: Position/jugement exprimé par l'auteur
+  - Implication: Analyse/conséquence déduite
 
 ## 3. Insights & Leçons - AVEC SOURCES
-* 4-5 insights substantiels avec:
-  - Base factuelle (citations directes)
-  - Position de l'auteur
-  - Applications pratiques déduites
-  - Niveau de confiance: ÉLEVÉ (certain) → FAIBLE (inféré)
+Format pour chaque insight:
+* Insight principal → Base factuelle (citations directes)
+  - Position auteur: Perspective/opinion exprimée
+  - Applications: Conséquences pratiques déduites
+  - Confiance: ÉLEVÉ/MOYEN/FAIBLE
 
 ## 4. Citations Marquantes
 * Citations FACTUELLES: [Affirmations vérifiables]
