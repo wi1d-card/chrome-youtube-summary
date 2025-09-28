@@ -105,15 +105,15 @@ Format pour chaque insight:
 Structure hiérarchique en ASCII des concepts clés dans un block code:
 
 SUJET PRINCIPAL
-├── Concept Principal 1
-│   ├── Sous-concept A
-│   └── Sous-concept B
-├── Concept Principal 2
-│   ├── Détail important
-│   └── Application pratique
-└── Concept Principal 3
-    ├── Implication majeure
-    └── Lien avec autres domaines
+Concept Principal 1
+-> Sous-concept A
+-> Sous-concept B
+Concept Principal 2
+-> Détail important
+-> Application pratique
+Concept Principal 3
+-> Implication majeure
+-> Lien avec autres domaines
 
 Organiser par ordre d'importance décroissante
 
