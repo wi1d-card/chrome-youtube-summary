@@ -122,8 +122,8 @@
 .markdown-preview h1 {
   color: #1f2937;
   margin: 8px -12px 6px -12px;
-  padding: 8px 12px;
-  font-size: 18px;
+  padding: 10px 12px;
+  font-size: 22px;
   font-weight: 700;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   border-left: 4px solid #3b82f6;
@@ -134,8 +134,8 @@
 .markdown-preview h2 {
   color: #1f2937;
   margin: 6px -8px 4px -8px;
-  padding: 6px 8px;
-  font-size: 16px;
+  padding: 8px 8px;
+  font-size: 19px;
   font-weight: 600;
   background: linear-gradient(135deg, #fafbff 0%, #f1f5f9 100%);
   border-left: 3px solid #6366f1;
@@ -145,8 +145,8 @@
 .markdown-preview h3 {
   color: #374151;
   margin: 4px 0;
-  padding: 4px 0 4px 8px;
-  font-size: 15px;
+  padding: 6px 0 6px 8px;
+  font-size: 17px;
   font-weight: 600;
   background: linear-gradient(90deg, #f8fafc 0%, transparent 100%);
   border-left: 2px solid #94a3b8;
